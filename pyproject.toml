@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "personal_todoer"
+version = "0.0.1"
+authors = [
+  {name = "Jarosław Majka", email = "jaroslaw.majka@protonmail.com"}
+]
+description = "Personal TODO app"
+readme = "README.md"
+
+dependencies = [
+  "django>=5.2.8"
+]
